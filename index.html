@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.min.css" />
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/image/Group.png" alt="" width="30" height="24" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <img src="/image/icon.png" alt="" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Used Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Auctions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sell Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Local Dealers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sign-up" href="#">
+                <img src="/image/person-fill.svg" alt="" /> Sign Up</a
+              >
+            </li>
+          </ul>
+          <!-- <span class="navbar-text"
+            ><a class="" href="#">
+              <img src="/image/person.svg" alt="" /> Sign Up</a
+            >
+          </span> -->
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1>
+          Say hello to your next <br />
+          awesome vehicle
+        </h1>
+        <p>
+          Featuring Used, Wholesale and Salvage Cars, Trucks <br />
+          & SUVs for Sale
+        </p>
+        <div class="topfooter">
+          <div class="row">
+            <div class="col-md-2 borderight">
+              <span class="span">Type</span>
+              <!-- <p class="ptext"></p> -->
+              <select class="form-select" id="">
+                <option selected>Used Card</option>
+                <option value="1">1 Group</option>
+                <option value="2">2 Group</option>
+                <option value="3">3 Group</option>
+              </select>
+            </div>
+            <div class="col-md-2 borderight">
+              <span class="span">Make</span>
+              <!-- <p class="ptext">Make</p> -->
+              <select class="form-select" id="">
+                <option selected>Infiniti</option>
+                <option value="1">1 Group</option>
+                <option value="2">2 Group</option>
+                <option value="3">3 Group</option>
+              </select>
+            </div>
+            <div class="col-md-2 withoutp borderight">
+              <p class="somemargin"></p>
+              <select class="form-select" id="">
+                <option selected>Year</option>
+                <option value="1">1 Group</option>
+                <option value="2">2 Group</option>
+                <option value="3">3 Group</option>
+              </select>
+            </div>
+            <div class="col-md-2 withoutp borderight">
+              <p class="somemargin"></p>
+              <select class="form-select" id="">
+                <option selected>Model</option>
+                <option value="1">1 Group</option>
+                <option value="2">2 Group</option>
+                <option value="3">3 Group</option>
+              </select>
+            </div>
+            <div class="col-md-2 withoutp">
+              <select class="form-select" id="">
+                <option selected>Price</option>
+                <option value="1">1 Group</option>
+                <option value="2">2 Group</option>
+                <option value="3">3 Group</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <button class="btn headerbtn text-center">
+                <img src="/image/search.svg" alt="" />
+                search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Two -->
+    <section class="active-auctions">
+      <div class="container">
+        <div class="row auction">
+          <h2 class="heading col-md-11">Active auctions</h2>
+          <div class="auction-body col-md-1">
+            <span>1/6</span>
+            <span><img src="/image/Icon.png" alt="" /></span>
+            <span><img src="/image/Icon-2.png" alt="" /></span>
+          </div>
+        </div>
+        <div class="row card-section">
+          <div class="col-md-4 cardbackground">
+            <div class="card">
+              <img class="card-img" src="/image/car-1.png" alt="" />
+              <div class="card-title">
+                <h2>2013 Subaru Forester</h2>
+                <span>11 475 Miles . #20199884</span>
+              </div>
+              <div class="card-body">
+                <img src="/image/card-logo.png" alt="" />
+                <div class="body-text">
+                  <h2>Subaru Champlin</h2>
+                  <p>Seller</p>
+                </div>
+              </div>
+              <div class="card-end">
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <button class="card-button">Place Bid</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cardbackground">
+            <div class="card">
+              <img class="card-img" src="/image/car-3.png" alt="" />
+              <div class="card-title">
+                <h2>2013 Subaru Forester</h2>
+                <span>11 475 Miles . #20199884</span>
+              </div>
+              <div class="card-body">
+                <img src="/image/card-logo.png" alt="" />
+                <div class="body-text">
+                  <h2>Subaru Champlin</h2>
+                  <p>Seller</p>
+                </div>
+              </div>
+              <div class="card-end">
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <button class="card-button">Place Bid</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 cardbackground">
+            <div class="card">
+              <img class="card-img" src="/image/car-2.png" alt="" />
+              <div class="card-title">
+                <h2>2013 Subaru Forester</h2>
+                <span>11 475 Miles . #20199884</span>
+              </div>
+              <div class="card-body">
+                <img src="/image/card-logo.png" alt="" />
+                <div class="body-text">
+                  <h2>Subaru Champlin</h2>
+                  <p>Seller</p>
+                </div>
+              </div>
+              <div class="card-end">
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <h4>$21,480</h4>
+                  <p>Price</p>
+                </div>
+                <div class="card-end-body">
+                  <button class="card-button">Place Bid</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Two -->
+
+    <!-- section-Three -->
+    <section class="sectionBrand">
+      <div class="container brad-section">
+        <div class="row bard">
+          <div class="col-md-2 ">
+            <img src="/image/brand-1.png" alt="" />
+          </div>
+          <div class="col-md-2 ps-5">
+            <img src="/image/brand-2.png" alt="" />
+          </div>
+          <div class="col-md-2 ">
+            <img src="/image/brand-3.png" alt="" />
+          </div>
+          <div class="col-md-2 ps-5">
+            <img src="/image/brand-4.png" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img src="/image/brand-5.png" alt="" />
+          </div>
+          <div class="col-md-2 ps-5">
+            <img src="/image/brand-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- End section-Three -->
+    <!-- section-Four -->
+    <section class="sectionOnlineAuto">
+      <div class="container OnlineAuto">
+        <div class="col-md-5">
+          <div class="row vehicalsheading">
+            <h2>Online Auto Auctions</h2>
+            <p>Vehicles available for sale</p>
+          </div>
+          <div class="row vehicalsbutton">
+            <span>2</span>
+            <span>0</span>
+            <span>8</span>
+            <span>9</span>
+            <span>9</span>
+          </div>
+          <div class="row vehicalsbody">
+            <p>Along with conventional advertising and below the line activities, <br> organizations and corporate bodies have come to realize that <br> they need to invest in trade shows in order to create maximum <br> recall for their product or brand name.</p>
+          </div>
+          <div class="row vehicalsend">
+            <button><img src="/image/hammer.png" alt=""> Explore All Auctions</button>
+          </div>
+        </div>
+        <div class="col-md-7 auationsimage">
+          <div class="row a">
+            <img class="auationsimage-1" src="/image/auations-1.png" alt="">
+          </div>
+          <img class="auationsimage-2" src="/image/autions-2.png" alt="">
+           
+        </div>
+      </div>
+    </section>
+    <!-- End section-Four -->
+
+    <!-- section-five -->
+      <section class="findCar">
+        <div class="conatiner">
+          <div class="row heading">
+            <h2>Find car by</h2>
+          <div class="heading-text">
+            <span>Body types</span>
+            <span>Makes</span>
+            <span>Models</span>
+            <span>Trending</span>
+          </div>
+          </div>
+          <div class="row populardescription">
+            <div class="col-md-4">
+              <p class="popular-heading">Popular Makes</p>
+              <div class="popular-body">
+                <img src="/image/brand-2.png" alt="">
+                <div class="popular-text">
+                  <h4>Subaru</h4>
+                  <span>12,890</span>
+                </div>
+              </div>
+              <div class="popular-body">
+                <img src="/image/brand-4.png" alt="">
+                <div class="popular-text">
+                  <h4>Subaru</h4>
+                  <span>12,890</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p>Other Makes</p>
+              <div class="others-body">
+                <span>Acura <br> Audi <br> BMW<br> Buick <br> Cadillac <br>  Chevrolet <br> Chrysler<br> Dodge<br> Ford <br> Freightliner <br> GMC<br> Harley<br>Honda</span>
+                <span>1,752 <br>2,415 <br>  4,590 <br> 2,577<br> 2,201<br>  24,187  <br> 3,473<br>  9,325 <br>  26,175<br>   769<br> 5,403<br>   1,069 <br>  14,516</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="makes-body">
+                <span>Infiniti<br> International <br> Isuzu<br> Jaguar<br> Jeep<br> Kiabr> Lamborghini<br> Land Rover<br> Lexus<br> Lincoln <br> Lotus <br> Mazda</span>
+                <span>2,216 <br> 373<br> 220 <br>  485<br> 7,096 <br> 6,290<br> 18 <br> 921<br> 3,933<br>  1,332<br>  12 <br>  243<br>  2,928</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End section-five -->
+
+    <!-- script
+    <script src="/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -79,67 +79,69 @@
           Featuring Used, Wholesale and Salvage Cars, Trucks <br />
           & SUVs for Sale
         </p>
-        <div class="topfooter">
-          <div class="row">
-            <div class="col-md-2 borderight">
-              <span class="span">Type</span>
-              <!-- <p class="ptext"></p> -->
-              <select class="form-select" id="">
-                <option selected>Used Card</option>
-                <option value="1">1 Group</option>
-                <option value="2">2 Group</option>
-                <option value="3">3 Group</option>
-              </select>
-            </div>
-            <div class="col-md-2 borderight">
-              <span class="span">Make</span>
-              <!-- <p class="ptext">Make</p> -->
-              <select class="form-select" id="">
-                <option selected>Infiniti</option>
-                <option value="1">1 Group</option>
-                <option value="2">2 Group</option>
-                <option value="3">3 Group</option>
-              </select>
-            </div>
-            <div class="col-md-2 withoutp borderight">
-              <p class="somemargin"></p>
-              <select class="form-select" id="">
-                <option selected>Year</option>
-                <option value="1">1 Group</option>
-                <option value="2">2 Group</option>
-                <option value="3">3 Group</option>
-              </select>
-            </div>
-            <div class="col-md-2 withoutp borderight">
-              <p class="somemargin"></p>
-              <select class="form-select" id="">
-                <option selected>Model</option>
-                <option value="1">1 Group</option>
-                <option value="2">2 Group</option>
-                <option value="3">3 Group</option>
-              </select>
-            </div>
-            <div class="col-md-2 withoutp">
-              <select class="form-select" id="">
-                <option selected>Price</option>
-                <option value="1">1 Group</option>
-                <option value="2">2 Group</option>
-                <option value="3">3 Group</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <button class="btn headerbtn text-center">
-                <img src="/image/search.svg" alt="" />
-                search
-              </button>
+        <div class="topsection">
+          <div class="topfooter">
+            <div class="row">
+              <div class="col-md-2 borderight">
+                <span class="span">Type</span>
+                <!-- <p class="ptext"></p> -->
+                <select class="form-select" id="">
+                  <option selected>Used Card</option>
+                  <option value="1">1 Group</option>
+                  <option value="2">2 Group</option>
+                  <option value="3">3 Group</option>
+                </select>
+              </div>
+              <div class="col-md-2 borderight">
+                <span class="span">Make</span>
+                <!-- <p class="ptext">Make</p> -->
+                <select class="form-select" id="">
+                  <option selected>Infiniti</option>
+                  <option value="1">1 Group</option>
+                  <option value="2">2 Group</option>
+                  <option value="3">3 Group</option>
+                </select>
+              </div>
+              <div class="col-md-2 withoutp borderight">
+                <p class="somemargin"></p>
+                <select class="form-select" id="">
+                  <option selected>Year</option>
+                  <option value="1">1 Group</option>
+                  <option value="2">2 Group</option>
+                  <option value="3">3 Group</option>
+                </select>
+              </div>
+              <div class="col-md-2 withoutp borderight">
+                <p class="somemargin"></p>
+                <select class="form-select" id="">
+                  <option selected>Model</option>
+                  <option value="1">1 Group</option>
+                  <option value="2">2 Group</option>
+                  <option value="3">3 Group</option>
+                </select>
+              </div>
+              <div class="col-md-2 withoutp">
+                <select class="form-select" id="">
+                  <option selected>Price</option>
+                  <option value="1">1 Group</option>
+                  <option value="2">2 Group</option>
+                  <option value="3">3 Group</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <button class="btn headerbtn text-center">
+                  <img src="/image/search.svg" alt="" />
+                  search
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section Two -->
-    <section class="active-auctions">
-      <div class="container">
+    <section class="activesection">
+      <div class="container active-auctions">
         <div class="row auction">
           <h2 class="heading col-md-11">Active auctions</h2>
           <div class="auction-body col-md-1">
@@ -149,7 +151,7 @@
           </div>
         </div>
         <div class="row card-section">
-          <div class="col-md-4 cardbackground">
+          <div class="col-md-4  cardbackground">
             <div class="card">
               <img class="card-img" src="/image/car-1.png" alt="" />
               <div class="card-title">
@@ -304,16 +306,20 @@
       <section class="findCar">
         <div class="conatiner">
           <div class="row heading">
-            <h2>Find car by</h2>
-          <div class="heading-text">
-            <span>Body types</span>
-            <span>Makes</span>
-            <span>Models</span>
-            <span>Trending</span>
+            <div class="col-md-6 heading-head">
+              <h2 class="ps-5">Find car by</h2>
+            </div>
+          <div class=" col-md-6 heading-text">
+            <ul class="heading-textlist"> 
+              <li class="heading-textlistitem">Body types</li>
+              <li class="heading-textlistitem makes">Makes</li>
+              <li class="heading-textlistitem">Models</li>
+              <li class="heading-textlistitem">Trending</li>
+            </ul>
           </div>
           </div>
           <div class="row populardescription">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <p class="popular-heading">Popular Makes</p>
               <div class="popular-body">
                 <img src="/image/brand-2.png" alt="">
@@ -329,24 +335,84 @@
                   <span>12,890</span>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <p>Other Makes</p>
-              <div class="others-body">
-                <span>Acura <br> Audi <br> BMW<br> Buick <br> Cadillac <br>  Chevrolet <br> Chrysler<br> Dodge<br> Ford <br> Freightliner <br> GMC<br> Harley<br>Honda</span>
-                <span>1,752 <br>2,415 <br>  4,590 <br> 2,577<br> 2,201<br>  24,187  <br> 3,473<br>  9,325 <br>  26,175<br>   769<br> 5,403<br>   1,069 <br>  14,516</span>
+              <div class="popular-body">
+                <img src="/image/brand-4.png" alt="">
+                <div class="popular-text">
+                  <h4>Subaru</h4>
+                  <span>12,890</span>
+                </div>
+              </div>
+              <div class="popular-body">
+                <img src="/image/brand-4.png" alt="">
+                <div class="popular-text">
+                  <h4>Subaru</h4>
+                  <span>12,890</span>
+                </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="makes-body">
-                <span>Infiniti<br> International <br> Isuzu<br> Jaguar<br> Jeep<br> Kiabr> Lamborghini<br> Land Rover<br> Lexus<br> Lincoln <br> Lotus <br> Mazda</span>
-                <span>2,216 <br> 373<br> 220 <br>  485<br> 7,096 <br> 6,290<br> 18 <br> 921<br> 3,933<br>  1,332<br>  12 <br>  243<br>  2,928</span>
+            <div class="col-md-3 othersheading">
+              <p>Other Makes</p>
+              <div class="othersbody">
+                <div class="oyhersbodytext">
+                  <span>Acura</span><span>Audi </span> <span>BMW</span><span>Buick</span> <span>Cadillac</span><span>Chevrolet</span><span> Chrysler</span><span> Dodge</span><span> Ford </span><span>Freightliner</span><span>GMC</span><span> Harley</span><span>Honda</span>
+                </div>
+                <div class="oyhersbodytext">
+                  <span>1,752 </span><span>2,415</span><span> 4,590 </span><span> 2,577</span><span> 2,201</span><span>24,187 </span><span> 3,473</span><span> 9,325 </span><span> 26,175</span><span> 769</span><span>5,403</span><span>  1,069 </span><span> 14,516</span>
+                </div>        
+              </div>
+            </div>
+            <div class="col-md-3 makesdescription">
+            
+              <div class="makesbody">
+                <div class="makesbodytext">
+                  <span>Infiniti</span><span>International</span><span> Isuzu</span><span> Jaguar</span><span> Jeep</span><span> Kiabr</span><span> Lamborghini</span><span> Land Rover</span><span> Lexus</span><span>Lincoln </span><span>Lotus </span> <span> Maserati</span> <span> Mazda</span>
+                </div>
+               <div class="makesbodytext">
+                <span>2,216</span><span> 37</span><span> 220 </span><span>  485</span><span>7,096 </span><span> 6,290</span><span> 18 </span><span> 921</span><span> 3,933</span><span>  1,332</span><span>  12 </span><span>  243</span><span> 2,928</span>
+               </div>
+                
               </div>
             </div>
           </div>
         </div>
       </section>
     <!-- End section-five -->
+
+    <!-- section six -->
+    <footer>
+      <div class="container footer">
+        <div class="row footercontainer">
+          <div class="col-md-3 footerbody">
+            <h4>About</h4>
+            <p>How it works</p>
+              <p>Careers</p> 
+              <p>About us</p> 
+              <p>Media</p>
+          </div>
+          <div class="col-md-3 footerbody">
+            <h4>Community</h4>
+            <p>Against Discrimination</p>
+            <p>Invite friends<p>
+            <p>Gift cards</p>
+          </div>
+          <div class="col-md-3 footerbody">
+            <h4>Become seller</h4>
+            <p>Add your vehicle</p>
+            <p>Business account</p>
+            <p>Resource Center</p>
+            <p>Community</p>
+          </div>
+          <div class="col-md-3 footerbody">
+            <h4>Bookings support</h4>
+              <p>Updates for COVID-1</p>
+              <p>Help Center</p> 
+              <p>Support</p> 
+              <p>Trust & Safety</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end section six -->
 
     <!-- script
     <script src="/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>

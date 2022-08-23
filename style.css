@@ -59,6 +59,9 @@
   color: #ffffff;
   margin-top: 20px;
 }
+.topsection {
+  /* padding: 20px; */
+}
 .topfooter {
   background: #ffffff;
   box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
@@ -68,7 +71,7 @@
   height: 80px;
   margin: 0px auto;
   left: 50%;
-  bottom: 10px;
+  bottom: -9px;
   z-index: 99;
   width: 98%;
   transform: translateX(-50%);
@@ -146,6 +149,10 @@
 /* section Two */
 .active-auctions {
   margin-top: 50px;
+}
+.auction {
+  display: flex;
+  justify-content: space-between;
 }
 .auction-body {
   display: flex;
@@ -356,9 +363,17 @@
 /* end section Four */
 
 /* section Five */
+.heading {
+  /* display: flex; */
+  padding-left: 20px;
+  width: 680px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
 .heading > h2 {
   font-size: 28px;
-  line-height: 36px;
+  line-height: 9px;
   letter-spacing: -0.1px;
   color: #0d0a19;
 }
@@ -368,6 +383,18 @@
   text-align: center;
   letter-spacing: -0.1px;
   color: #9a9ea7;
+}
+.heading-textlist {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 700px;
+  column-gap: 10%;
+  height: auto;
+}
+.makes {
+  color: #0d0a19;
 }
 .popular-heading {
   font-weight: 400;
@@ -402,8 +429,63 @@
   width: 42px;
   margin-top: 10px;
 }
-
+.othersheading > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+  padding-left: 45px;
+}
+.othersbody {
+  display: flex;
+  /* column-gap: 35%; */
+  justify-content: space-between;
+  padding-left: 45px;
+  /* width: 340px; */
+}
+.oyhersbodytext {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.makesbody {
+  display: flex;
+  /* column-gap: 25%; */
+  margin-top: 33px;
+  justify-content: space-between;
+  padding-left: 45px;
+  width: 340px;
+}
+.makesbodytext {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 /* end section Five */
+
+/* section six */
+.footer {
+  margin-top: 20px;
+}
+.footercontainer {
+  padding-top: 25px;
+  padding-left: 10px;
+}
+.footerbody > h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+}
+.footerbody > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+}
 
 @media screen and (max-width: 767px) {
   .section h1 {
